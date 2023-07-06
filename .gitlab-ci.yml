@@ -10,7 +10,7 @@ cache:
     - docker-img/web/ 
 
 services:
-  - docker:dind
+  - docker:dinD
 
 stages:
   - build
